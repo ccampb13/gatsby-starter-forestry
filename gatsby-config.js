@@ -3,6 +3,7 @@ const config = require('./site-config.json')
 module.exports = {
   pathPrefix: process.env.PATH_PREFIX || '/',
   siteMetadata: {
+    siteUrl: `https://cocky-shirley-a889b0.netlify.app`,
     title: config.title,
     description: config.description,
     footer: config.footer,
